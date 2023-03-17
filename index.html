@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Testing file upload</title>
+    </head>
+    <body style="width: 100%;">
+        <div id="main-body" style="margin-left: auto; width: 60vw;">
+            <h2 style="font-family: arial">Upload your document to translate</h2>
+            <form action="/api/submit_file" enctype="multipart/form-data" method="post">
+                <input type="file" name="multipleFiles" multiple="multiple">
+                <input type="submit" value="Upload">
+            </form>
+        </div>
+    </body>
+</html>
+
