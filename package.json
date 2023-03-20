@@ -2,6 +2,7 @@
   "dependencies": {
     "formidable": "^2.1.1",
     "google-translate-api-x": "^10.5.4",
+    "node-tesseract-ocr": "^2.2.1",
     "pptx2json": "^0.0.8"
   }
 }
